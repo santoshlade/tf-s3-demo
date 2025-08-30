@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('aws-creds')   // Replace with your Jenkins credential ID
-        AWS_SECRET_ACCESS_KEY = credentials('aws-creds')
+        AWS_ACCESS_KEY_ID     = credentials('aws-access-key-id')   // Replace with your Jenkins credential ID
+        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
         AWS_DEFAULT_REGION    = 'ap-southeast-2'
     }
 
