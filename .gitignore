@@ -1,0 +1,9 @@
+# Terraform local stuff (don't commit state)
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+crash.log
+
+# Optional: if you ever put secrets in tfvars, ignore it.
+# terraform.tfvars
