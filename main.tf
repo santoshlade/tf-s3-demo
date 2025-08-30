@@ -10,7 +10,6 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  profile = "tf-demo"
 }
 
 # Create an S3 bucket (defaults to private)
