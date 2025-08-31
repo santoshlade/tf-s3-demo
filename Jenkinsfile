@@ -26,11 +26,11 @@ pipeline {
             }
         }
 
-        stage('Terraform Apply') {
-            steps {
-                bat 'terraform apply -auto-approve -no-color tfplan'
-            }
-        }
+        //stage('Terraform Apply') {
+          //  steps {
+            //    bat 'terraform apply -auto-approve -no-color tfplan'
+           // }
+        //}
 
         stage('Terraform Destroy') {
             steps {
