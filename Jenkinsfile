@@ -8,11 +8,11 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'master', url: 'https://github.com/santoshlade/tf-s3-demo.git'
-            }
-        }
+        //stage('Checkout') {
+          //  steps {
+            //    git branch: 'master', url: 'https://github.com/santoshlade/tf-s3-demo.git'
+            //}
+        //}
 
         stage('Terraform Init') {
             steps {
